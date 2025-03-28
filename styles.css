@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Home Section */
+#sectionHome {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tourism-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 500px;
+    align-items: flex-end;
+    display: flex-end;
+    justify-content: end;
+}
+
+
+.main-heading {
+    font-size: 3rem;
+    color: #333;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Favourite Places Section */
+#sectionFavouritePlaces {
+    padding: 20px;
+}
+
+.favourite-places-heading {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px;
+}
+
+.favourite-place-card-heading {
+    font-size: 1.5rem;
+    color: black;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    font-size: 1rem;
+    color: #555;
+    font-family: roboto;
+}
+
+.favourite-place-card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+/* Detailed View Section */
+.detailed-view-bg-container {
+    padding: 20px;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 220vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detailed-view-card-heading {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    font-family: roboto;
+}
+
+.ordered-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Back Button */
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
